@@ -2,7 +2,7 @@ Summary:	Miscellaneous Networking Utilities
 Summary(pl):	Ró¿ne narzêdzia sieciowe
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
-Version:	1.24
+Version:	1.27
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -32,8 +32,6 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/net-utils/ChangeLog
-
 # remove .el file if corresponding .elc file exists
 find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || rm -f $i; done
 
@@ -42,6 +40,6 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/net-utils/ChangeLog.gz
+%doc lisp/net-utils/ChangeLog
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
