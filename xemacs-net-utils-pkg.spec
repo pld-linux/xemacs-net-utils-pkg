@@ -2,8 +2,8 @@ Summary:	Miscellaneous Networking Utilities
 Summary(pl):	Ró¿ne narzêdzia sieciowe
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
-Version:	1.23
-Release:	2
+Version:	1.24
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
