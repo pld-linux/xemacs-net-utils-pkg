@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Miscellaneous Networking Utilities.
 
-%description -l pl 
+%description -l pl
 Ró¿ne narzêdzia sieciowe.
 
 %prep
@@ -32,7 +32,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/net-utils/ChangeLog 
+gzip -9nf lisp/net-utils/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
