@@ -2,7 +2,7 @@ Summary:	Miscellaneous Networking Utilities
 Summary(pl):	Miscellaneous Networking Utilities
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
-Version:	1.15
+Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
