@@ -1,8 +1,8 @@
 Summary:	Miscellaneous Networking Utilities
-Summary(pl):	Miscellaneous Networking Utilities
+Summary(pl):	Ró¿ne narzêdzia sieciowe
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
-Version:	1.18
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -19,8 +19,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Miscellaneous Networking Utilities.
 
 %description -l pl 
+Ró¿ne narzêdzia sieciowe.
 
 %prep
 %setup -q -c
