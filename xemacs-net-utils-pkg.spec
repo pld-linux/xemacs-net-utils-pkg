@@ -1,5 +1,5 @@
 Summary:	Miscellaneous Networking Utilities
-Summary(pl):	Ró¿ne narzêdzia sieciowe
+Summary(pl.UTF-8):   RÃ³Å¼ne narzÄ™dzia sieciowe
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
 Version:	1.48
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Miscellaneous Networking Utilities.
 
-%description -l pl
-Ró¿ne narzêdzia sieciowe.
+%description -l pl.UTF-8
+RÃ³Å¼ne narzÄ™dzia sieciowe.
 
 %prep
 %setup -q -c
