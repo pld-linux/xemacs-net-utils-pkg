@@ -1,5 +1,5 @@
 Summary:	Miscellaneous Networking Utilities
-Summary(pl.UTF-8):   Różne narzędzia sieciowe
+Summary(pl.UTF-8):	Różne narzędzia sieciowe
 Name:		xemacs-net-utils-pkg
 %define 	srcname	net-utils
 Version:	1.48
